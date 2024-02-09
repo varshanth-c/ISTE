@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty Page</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    
+    header {
+      background-color: #f1f0f0;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+    nav {
+      background-color: hsl(50, 78%, 57%);
+      overflow: hidden;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+    }
+    nav ul li a {
+      display: inline-block;
+      padding: 14px 20px;
+      text-decoration: none;
+      color: #fff;
+    }
+    nav ul li a:hover {
+      background-color: #f4f0f0;
+    }
+    .faculty-info {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 2em;
+    }
+    .faculty-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 1em;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+    }
+    .faculty-card img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 50%;
+      margin-right: 1em;
+    }
+    .faculty-card .faculty-details {
+      flex: 1;
+    }
+    @media screen and (min-width: 768px) {
+      .faculty-info {
+        width: 100%;
+      }
+      .faculty-card {
+        max-width: 45%;
+        margin: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+
+  <section class="faculty-info">
+    <div class="faculty-card">
+      <img src="./assets/images/blog-1.jpg" alt="Faculty Image">
+      <div class="faculty-details">
+        <h2>Faculty Name</h2>
+        <p>Role: Rashma</p>
+        <p>Department: Computer Science</p>
+        <p>Office: Room 123</p>
+        <p>Email: faculty@example.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>"Dear Students,
+
+          As your Faculty Chapter Coordinator, I am here to support and guide you throughout your academic journey in the field of Computer Science. Whether you have questions about courses, need assistance with career planning, or simply want to chat about your academic goals, my door is always open.
+          
+          Remember, your success is my priority, and I am committed to helping you achieve your fullest potential. Feel free to reach out to me via email or phone, or stop by my office during office hours. Let's work together to make your college experience a fulfilling and enriching one.
+          
+          Best regards,
+          [Your Name]
+          Faculty Chapter Coordinator".</p>
+        <!-- Add more details if needed -->
+      </div>
+    </div>
+  </section>
+
+  <section class="faculty-info">
+    <div class="faculty-card">
+      <img src="./assets/images/blog-2.jpg" alt="Another Faculty Image">
+      <div class="faculty-details">
+        <h2>Ramya</h2>
+        <p>Role: Assistant Professor</p>
+        <p>Department: Mathematics</p>
+        <p>Office: Room 234</p>
+        <p>Email: another_faculty@example.com</p>
+        <p>Phone: 987-654-3210</p>
+        <p>"Dear Students,
+
+          As your Faculty Chapter Coordinator, I am here to support and guide you throughout your academic journey in the field of Computer Science. Whether you have questions about courses, need assistance with career planning, or simply want to chat about your academic goals, my door is always open.
+          
+          Remember, your success is my priority, and I am committed to helping you achieve your fullest potential. Feel free to reach out to me via email or phone, or stop by my office during office hours. Let's work together to make your college experience a fulfilling and enriching one.
+          
+          Best regards,
+          [Your Name]
+          Faculty Chapter Coordinator".</p>
+        <!-- Add more details if needed -->
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
